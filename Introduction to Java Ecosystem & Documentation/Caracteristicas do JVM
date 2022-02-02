@@ -1,0 +1,9 @@
+1-) Características:
+Execução de pilhas
+Gerenciamento de memória
+Gerenciamento de threads
+Otimização de código (Compilação JIT - Just In Time)
+Garbage Collector (GC)
+
+JRE (Java Runtime Environment)- Responsavel por executar os programas em Java
+Jdk (Java Development Kit) - Utilitarios que permitem o desenvolvimento de programas em java. O mesmo já possui a JVM integrado para executar os programas.

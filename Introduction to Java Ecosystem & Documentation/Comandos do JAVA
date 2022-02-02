@@ -1,0 +1,8 @@
+1-) Comandos de Utilização do Java Version Manager
+
+jabba ls-remote = Lista todas versoes do jdk pelo Java Version Manager.
+jabba install openjdk@1.17.0 = Instala o JDK seguido da versão que queremos.
+jabba use openjdk@1.17.0 = Ativa/troca a versão do JDK que queremos utilizar.
+java -version = Mostra a versão do Java sendo utilizado em sua maquina.
+javac -d target/ -sourcepath src/ = Utiliza o copilador java (JavaCopiler) na pasta definida.
+javadoc -d javadoc/ -sourcepath src/ -subpackages = Pega todos os pacotes e subpacotes de dentro da pasta selecionada e gera todas as documentações javadoc. 

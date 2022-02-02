@@ -1,0 +1,5 @@
+1-) Comandos para instalação do JVM:
+
+sudo apt install curl = Instalação do Curl
+curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh = Instalação do Java Version Manager
+
