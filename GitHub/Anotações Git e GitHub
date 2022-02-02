@@ -1,0 +1,26 @@
+1-) Nunca Esqueça:
+Não esquecer os códigos do git e github, nem os códigos para adicionar o shh na maquina.
+Preferencial deixar os repositórios/projetos como público, isso facilita o auxilio de terceiros e a avaliação de empresas em relação ao seu trabalho desenvolvido dentro da programação.
+Deixar sempre o arquivo READEME ativo pois e muito importante para o seu repositório.
+A caixa .gitignore serve para quando você esta trabalhando em uma determinada técnologia o git ignore alguns arquivos de build que não são necessarios para que versione ou que fique sendo gerados todas as vezes. (Dica de boa prática).
+Caso seu projeto tenha necessidade de alguma licensa marque a caixa de licensa e escolha a mesma de acordo com a estrutura de seu projeto.
+A partir da versão 1.30 do GIt o nome da raiz passou a ser chamado de "main" ao invés de "master" igual era anteriormente
+ Lembre-se, se você criou uma "chave ssh" no GitHub, todo projeto/repositório que voce for clonar em sua máquina voce deverá utilizar a chave ssh do repositório em questão.
+ Buscar sempre observar as mensagens que o terminal te retorna, caso não retorne nenhum significa que tudo ocorreu bem.
+ É muito importante as mensagens em cada Commit feito, pois ali descreve em resumo qual alteração ou correção foi feita no arquivo em questão.
+ Git Bash so existe na plataforma do Windows, pois no Linux ele já vem integrado com o terminal.
+ 
+ 
+2-) Códigos/Comandos via terminal Linux para Git/GitHub:
+git clone = Utilizado para clonar o repositório do github para a sua máquina.
+git status = Mostra informações/status de seu repositório na sua máquina, caso haja algum erro ou alteração em relação ao arquivo original sera mostrado na tela do terminal uma mensagem referente ao problema e possivel solução.
+git add . ou git add -A = Enviar/Adicionar todos os arquivos da sua máquina para o controle de versão local do git ou seja so confirma que a gente quer que ele seja enviado ao repositório na nuvem.
+git commit -m = Usado para fazer um commit do arquivo com uma mensagem (não esqucer as "aspas") do seu repositório na máquina.
+git push origin main = Usado para enviar o arquivo commit para seu repositório na nuvem.
+
+
+3-) Comando do Linux:
+cd = Usado para entrar em uma pasta.
+cd .. = volta a pasta anterio ao arquivo atual.
+
+

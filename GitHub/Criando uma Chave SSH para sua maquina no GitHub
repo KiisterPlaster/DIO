@@ -1,0 +1,26 @@
+Root Ativo
+ssh-keygen -t ed25519 -C e-mail.com
+Your identification has been saved in /home/local/.ssh/id_ed25519
+Your public key has been saved in /home/local/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:************************************ e-mail.com
+
+cd /home/bombax/.ssh
+...:~/.ssh$ ls
+id_ed25519  id_ed25519.pub
+
+...:~/.ssh$ cat id_ed25519.pub
+ssh-ed25519 **************************************************************** e-mail.com
+
+Adicione a chave SHA256 com o email junto as configurações do github la na página settings
+
+...:~/.ssh$ ls
+id_ed25519  id_ed25519.pub
+...:~/.ssh$ pwd
+/home/bombax/.ssh
+...:~/.ssh$ eval $(ssh-agent -s)
+Agent pid ******
+...:~/.ssh$ ssh-add id_ed25519
+Enter passphrase for id_ed25519: 
+Identity added: id_ed25519 (e-mail.com)
+
