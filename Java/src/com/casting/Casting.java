@@ -2,6 +2,11 @@
 
 package com.casting;
 
+/**
+ * @author KiisterPlaster
+ * @version 0.0.1
+ */
+
 public class Casting {
 
 
@@ -60,6 +65,5 @@ public class Casting {
         b1 = (byte) d3;
 
         System.out.println("b1: " + b1);
-
     }    
 }
